@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         // 1. Link the UI components from XML
         videoView = findViewById(R.id.video_view);
         tvStatus = findViewById(R.id.tv_status);
+        videoView.setZOrderOnTop(true);
 
         Button btnOpenAudio = findViewById(R.id.btn_open_file);
         Button btnOpenVideo = findViewById(R.id.btn_open_url);

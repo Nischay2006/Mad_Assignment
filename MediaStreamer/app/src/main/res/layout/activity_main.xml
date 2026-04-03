@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:background="#ADD8E6">
 
     <VideoView
         android:id="@+id/video_view"
@@ -18,7 +19,8 @@
         android:layout_height="wrap_content"
         android:text="Media Stopped"
         android:layout_marginTop="10dp"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="#333333" />
 
     <GridLayout
         android:layout_width="match_parent"
@@ -26,12 +28,30 @@
         android:columnCount="2"
         android:layout_marginTop="20dp">
 
-        <Button android:id="@+id/btn_open_file" android:text="Open Audio" android:layout_margin="5dp"/>
-        <Button android:id="@+id/btn_open_url" android:text="Open Video URL" android:layout_margin="5dp"/>
-        <Button android:id="@+id/btn_play" android:text="Play" android:layout_margin="5dp"/>
-        <Button android:id="@+id/btn_pause" android:text="Pause" android:layout_margin="5dp"/>
-        <Button android:id="@+id/btn_stop" android:text="Stop" android:layout_margin="5dp"/>
-        <Button android:id="@+id/btn_restart" android:text="Restart" android:layout_margin="5dp"/>
-    </GridLayout>
+        <Button
+            android:id="@+id/btn_open_file"
+            android:text="Open Audio"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FF4444"/> <Button
+        android:id="@+id/btn_open_url"
+        android:text="Open Video URL"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FF4444"/> <Button
+        android:id="@+id/btn_play"
+        android:text="Play"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FF4444"/> <Button
+        android:id="@+id/btn_pause"
+        android:text="Pause"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FF4444"/> <Button
+        android:id="@+id/btn_stop"
+        android:text="Stop"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FF4444"/> <Button
+        android:id="@+id/btn_restart"
+        android:text="Restart"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FF4444"/> </GridLayout>
 
 </LinearLayout>

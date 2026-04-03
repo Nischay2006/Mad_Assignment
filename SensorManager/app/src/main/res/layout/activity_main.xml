@@ -4,15 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    android:background="#FFC0CB">
 
     <TextView
-        android:id="@+id/accel_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Accelerometer: Fetching..."
-        android:textSize="18sp"
-        android:layout_marginBottom="20dp"/>
+    android:id="@+id/accel_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Accelerometer: Fetching..."
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:layout_marginBottom="20dp"/>
+
+
+
 
     <TextView
         android:id="@+id/light_text"
@@ -20,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Light Sensor: Fetching..."
         android:textSize="18sp"
+        android:textColor="#000000"
         android:layout_marginBottom="20dp"/>
 
     <TextView
@@ -27,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Proximity: Fetching..."
+        android:textColor="#000000"
         android:textSize="18sp"/>
 
 </LinearLayout>
